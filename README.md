@@ -13,7 +13,8 @@
 2. Rename WinSvc.csproj
 3. Connect the project to your solution
 4. Change the project assembly name and namespace
-5. Update install.bat and delete.bat with new assembly name
+5. If you using VisualStudio or Rider with installed VisualStudio 2017 - `install.bat` and `delete.bat` will be regenerated on build. 
+	Otherwise you need to update their with new assembly name yourself.
 6. Configure `ServiceName` in app.config
 7. Implement `OnStart` and `OnStop` behavior in MyService.cs
 
@@ -37,5 +38,6 @@ To debug your service configure your IDE to start service project with `/d` key.
 
 ## Roadmap ##
 
-1. Autogenerate install.bat and delete.bat on build
-2. Create Rider project template
+* ~~Autogenerate install.bat and delete.bat on build~~
+* Autogeneration without VisualStudio installed
+* Create Rider project template

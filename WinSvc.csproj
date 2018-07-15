@@ -47,15 +47,17 @@
     <Reference Include="System.Configuration.Install" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="App.config" />
+    <Content Include="README.md" />
     <None Include="delete.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>delete.bat</LastGenOutput>
     </None>
-	  <Content Include="delete.bat">
-		  <DependentUpon>delete.tt</DependentUpon>
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </Content>
+    <Content Include="delete.bat">
+      <DependentUpon>delete.tt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="install.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>install.bat</LastGenOutput>

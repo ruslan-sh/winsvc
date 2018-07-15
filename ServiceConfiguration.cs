@@ -2,7 +2,7 @@
 using System.Configuration;
 using System.Reflection;
 
-namespace RuslanSh.WinSvc.Net
+namespace RuslanSh.WinSvc
 {
 	public static class ServiceConfiguration
 	{

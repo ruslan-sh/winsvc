@@ -1,4 +1,4 @@
-﻿namespace RuslanSh.WinSvc.Net
+﻿namespace RuslanSh.WinSvc
 {
 	partial class MyService
 	{

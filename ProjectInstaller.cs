@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ServiceProcess;
 
-namespace RuslanSh.WinSvc.Net
+namespace RuslanSh.WinSvc
 {
 	[RunInstaller(true)]
 	public partial class ProjectInstaller : System.Configuration.Install.Installer

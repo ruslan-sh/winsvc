@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ServiceProcess;
 
-namespace RuslanSh.WinSvc.Net
+namespace RuslanSh.WinSvc
 {
 	public partial class MyService : ServiceBase
 	{

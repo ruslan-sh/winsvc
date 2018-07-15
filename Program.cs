@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.ServiceProcess;
 
-namespace RuslanSh.WinSvc.Net
+namespace RuslanSh.WinSvc
 {
 	internal class Program
 	{

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSvc.Net", "WinSvc.Net\WinSvc.Net.csproj", "{39111BE9-5934-496E-9BB0-5F758476F36A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSvc", "WinSvc.csproj", "{39111BE9-5934-496E-9BB0-5F758476F36A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

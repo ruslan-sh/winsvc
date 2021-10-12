@@ -14,7 +14,7 @@
 3. Connect the project to your solution
 4. Change the project assembly name and namespace
 5. If you using VisualStudio or Rider with installed VisualStudio 2017 - `install.bat` and `delete.bat` will be regenerated on build. 
-	Otherwise you'll need to update their yourself with new assembly name.
+	Otherwise you'll need to update them yourself with new assembly name.
 6. Configure `ServiceName` in app.config
 7. Implement `OnStart` and `OnStop` behavior in MyService.cs
 
